@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ONE MAGAZINE</title>
+
+  <!-- GOOGLE FONTS linked-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
+    <!-- FONT AWESOME KIT -->
+    <script src="https://kit.fontawesome.com/ada6784cfb.js" crossorigin="anonymous"></script>
+    <!-- STYLESHEET linked -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER start -->
+  <header id="home">
+
+    <!-- NAV start -->
+    <nav>
+      <div class="wrapper flexContainer">
+        <h2 class="logo">
+          <a href="#home">ONE</a>
+        </h2>
+        <ul class="navigation">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#blog">BLOG</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+        <!-- hamburger menu bars on max-width 768 screens -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa-solid fa-bars fa-2xl"></i>
+        </a>
+      </div>
+    </nav>
+    <!-- NAV end -->
+    
+    <h1>
+      <span>ONE</span>
+      <br>MAGAZINE</br>
+    </h1>
+    
+    <!-- SOCIAL MEDIA links -->
+    <div class="social">
+      <ul>
+        <li><a href="http://"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="http://"><i class="fa-brands fa-facebook-f"></i></a></li>
+        <li><a href="http://"><i class="fa-brands fa-snapchat"></i></a></li>
+        <li><a href="http://"><i class="fa-brands fa-twitter"></i></a></li>
+      </ul>
+    </div>
+  </header>
+  <!-- HEADER end -->
+
+  <!-- MAIN start -->
+  <main>
+    <h2 class="news">NEWS ARTICLES</h2>
+    <section class="gallery">
+      <div class="wrapper">
+        <ul class="flexContainer">
+          <li><img src="./images/image-7.jpg" alt="Two models strutting outside in heels"></li>
+          <li><img src="./images/image-3.jpg" alt="Male model posing with blurred background"></li>
+          <li><img src="./images/image-4.jpg" alt="Two models posing for camera in white wardrobe"></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="highlight">
+      <div class="wrapper">
+        <div>
+          <img src="./images/image-6.jpg" alt="male model posing in coffee shop a mug in hand">
+        </div>
+        <div class="text">
+          <h2>THIS WEEK'S HIGHLIGHT</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat quibusdam aliquid, repudiandae cum dolore corrupti eaque voluptatibus neque repellat iste cumque, repellendus, culpa nam facere numquam velit fuga sit deserunt et. Nisi vel, ab labore, dolor officia eligendi non, velit esse consectetur quae sequi a. Non assumenda libero repellendus laudantium tempore.</p>
+          <button>Read More</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOG starts -->
+    <article class="blog" id="blog">
+      <section class="trends">
+        <div class="wrapper">
+          <div>
+            <img src="./images/image-5.jpg" alt="female model posing">
+          </div>
+          <div class="text">
+            <h2>NEW TRENDS TO LOOKOUT FOR</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem libero nobis ut delectus, ab, at sequi id,
+            magnam explicabo in distinctio ipsam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, eos.</p>
+            <button>Read More</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="fashionWeek">
+        <div class="wrapper">
+          <div>
+          <img src="./images/image-2.jpg" alt="Two male models posing">
+          </div>
+          <div class="text">
+            <h2>BEHIND THE SCENES FROM SPRING/ SUMMER FASHION WEEK</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat at voluptatibus dolorem sit sapiente eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, veritatis.</p>
+            <button>Read More</button>
+          </div>
+        </div>
+      </section>
+    </article>
+    <!-- BLOG ends -->
+
+    <!-- ENGAGEMENT pages links start-->
+    <section class="engage">
+      <div class="wrapper">
+        <ul class="flexContainer">
+          <li>
+            <a href="#shop">
+              <i class="fa-solid fa-bag-shopping fa-3x"></i>
+              <h3>SHOP BRANDS</h3>
+            </a>
+          </li>
+          <li>
+            <a href="#community">
+              <i class="fa-solid fa-users fa-3x"></i>
+              <h3>COMMUNITY</h3>
+            </a>
+          </li>
+          <li>
+            <a href="#events">
+              <i class="fa-solid fa-calendar-check fa-3x"></i>
+              <h3>EVENTS</h3>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- ENGAGEMENT pages links end -->
+
+  </main>
+  <!-- MAIN end -->
+
+  <!-- FOOTER starts -->
+  <footer>
+    <div class="wrapper flexContainer">
+      <div class="subscribe">
+        <h3>STAY UPDATED</h3>
+        <p>Subscribe to our newsletter to stay updated</p>
+        <fieldset>
+          <label for="email"></label>
+          <input type="email" name="emailAddress" id="email" value="email address" class="email">
+          <input type="button" value="Subscribe" class="button">
+        </fieldset>
+      </div>
+      <div class="contact" id="contact">
+        <h3>CONTACT</h3>
+        <p>
+          info@email.com | 123-456-7890
+          <br>123 some road, Toronto, ON</br>
+          A5A 5A5, Canada
+        </p>
+      </div>
+      <div class="footerNav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+      <div class="copyright">
+        <p>Copyright &copy; 2019 HackerYou</p>
+      </div>
+  </footer>
+  <!-- FOOTER ends -->
+</body>
+</html>
